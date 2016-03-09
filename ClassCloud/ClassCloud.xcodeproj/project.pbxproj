@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		892FC9781C908504000573CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 892FC9771C908504000573CE /* main.m */; };
+		892FC97B1C908504000573CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 892FC97A1C908504000573CE /* AppDelegate.m */; };
+		892FC97E1C908504000573CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 892FC97D1C908504000573CE /* ViewController.m */; };
+		892FC9811C908504000573CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892FC97F1C908504000573CE /* Main.storyboard */; };
+		892FC9831C908504000573CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892FC9821C908504000573CE /* Assets.xcassets */; };
+		892FC9861C908504000573CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892FC9841C908504000573CE /* LaunchScreen.storyboard */; };
+		892FC9911C908504000573CE /* ClassCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 892FC9901C908504000573CE /* ClassCloudTests.m */; };
+		892FC99D1C9085F9000573CE /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 892FC99C1C9085F9000573CE /* Student.m */; };
+		892FC9A01C90917B000573CE /* StudentStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 892FC99F1C90917B000573CE /* StudentStore.m */; };
+		892FC9A41C909394000573CE /* NSURL+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 892FC9A31C909394000573CE /* NSURL+Additions.m */; };
+		892FC9AD1C909D74000573CE /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 892FC9AC1C909D74000573CE /* AddViewController.m */; };
+		892FC9B01C909FC6000573CE /* Student+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 892FC9AF1C909FC6000573CE /* Student+Additions.m */; };
+		892FC9B31C90A025000573CE /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 892FC9B21C90A025000573CE /* NSString+Additions.m */; };
+		892FC9B61C90A3A6000573CE /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892FC9B51C90A3A6000573CE /* CloudKit.framework */; };
+		892FC9B91C90A4E7000573CE /* CloudBackupService.m in Sources */ = {isa = PBXBuildFile; fileRef = 892FC9B81C90A4E7000573CE /* CloudBackupService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		892FC98D1C908504000573CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 892FC96B1C908504000573CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 892FC9721C908504000573CE;
+			remoteInfo = ClassCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		892FC9731C908504000573CE /* ClassCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		892FC9771C908504000573CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		892FC9791C908504000573CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		892FC97A1C908504000573CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		892FC97C1C908504000573CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		892FC97D1C908504000573CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		892FC9801C908504000573CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		892FC9821C908504000573CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		892FC9851C908504000573CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		892FC9871C908504000573CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892FC98C1C908504000573CE /* ClassCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		892FC9901C908504000573CE /* ClassCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassCloudTests.m; sourceTree = "<group>"; };
+		892FC9921C908504000573CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892FC99B1C9085F9000573CE /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		892FC99C1C9085F9000573CE /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		892FC99E1C90917B000573CE /* StudentStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentStore.h; sourceTree = "<group>"; };
+		892FC99F1C90917B000573CE /* StudentStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentStore.m; sourceTree = "<group>"; };
+		892FC9A21C909394000573CE /* NSURL+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Additions.h"; sourceTree = "<group>"; };
+		892FC9A31C909394000573CE /* NSURL+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Additions.m"; sourceTree = "<group>"; };
+		892FC9AB1C909D74000573CE /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		892FC9AC1C909D74000573CE /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		892FC9AE1C909FC6000573CE /* Student+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+Additions.h"; sourceTree = "<group>"; };
+		892FC9AF1C909FC6000573CE /* Student+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+Additions.m"; sourceTree = "<group>"; };
+		892FC9B11C90A025000573CE /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		892FC9B21C90A025000573CE /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		892FC9B41C90A39E000573CE /* ClassCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ClassCloud.entitlements; sourceTree = "<group>"; };
+		892FC9B51C90A3A6000573CE /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		892FC9B71C90A4E7000573CE /* CloudBackupService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudBackupService.h; sourceTree = "<group>"; };
+		892FC9B81C90A4E7000573CE /* CloudBackupService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudBackupService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		892FC9701C908504000573CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892FC9B61C90A3A6000573CE /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892FC9891C908504000573CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		892FC96A1C908504000573CE = {
+			isa = PBXGroup;
+			children = (
+				892FC9B51C90A3A6000573CE /* CloudKit.framework */,
+				892FC9751C908504000573CE /* ClassCloud */,
+				892FC98F1C908504000573CE /* ClassCloudTests */,
+				892FC9741C908504000573CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		892FC9741C908504000573CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				892FC9731C908504000573CE /* ClassCloud.app */,
+				892FC98C1C908504000573CE /* ClassCloudTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		892FC9751C908504000573CE /* ClassCloud */ = {
+			isa = PBXGroup;
+			children = (
+				892FC9B41C90A39E000573CE /* ClassCloud.entitlements */,
+				892FC9791C908504000573CE /* AppDelegate.h */,
+				892FC97A1C908504000573CE /* AppDelegate.m */,
+				892FC97C1C908504000573CE /* ViewController.h */,
+				892FC97D1C908504000573CE /* ViewController.m */,
+				892FC97F1C908504000573CE /* Main.storyboard */,
+				892FC9AB1C909D74000573CE /* AddViewController.h */,
+				892FC9AC1C909D74000573CE /* AddViewController.m */,
+				892FC9AE1C909FC6000573CE /* Student+Additions.h */,
+				892FC9AF1C909FC6000573CE /* Student+Additions.m */,
+				892FC9B11C90A025000573CE /* NSString+Additions.h */,
+				892FC9B21C90A025000573CE /* NSString+Additions.m */,
+				892FC9821C908504000573CE /* Assets.xcassets */,
+				892FC9841C908504000573CE /* LaunchScreen.storyboard */,
+				892FC9871C908504000573CE /* Info.plist */,
+				892FC9A21C909394000573CE /* NSURL+Additions.h */,
+				892FC9A31C909394000573CE /* NSURL+Additions.m */,
+				892FC9761C908504000573CE /* Supporting Files */,
+				892FC9A11C90918C000573CE /* Model */,
+				892FC9B71C90A4E7000573CE /* CloudBackupService.h */,
+				892FC9B81C90A4E7000573CE /* CloudBackupService.m */,
+			);
+			path = ClassCloud;
+			sourceTree = "<group>";
+		};
+		892FC9761C908504000573CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				892FC9771C908504000573CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		892FC98F1C908504000573CE /* ClassCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				892FC9901C908504000573CE /* ClassCloudTests.m */,
+				892FC9921C908504000573CE /* Info.plist */,
+			);
+			path = ClassCloudTests;
+			sourceTree = "<group>";
+		};
+		892FC9A11C90918C000573CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				892FC99B1C9085F9000573CE /* Student.h */,
+				892FC99C1C9085F9000573CE /* Student.m */,
+				892FC99E1C90917B000573CE /* StudentStore.h */,
+				892FC99F1C90917B000573CE /* StudentStore.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		892FC9721C908504000573CE /* ClassCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892FC9951C908504000573CE /* Build configuration list for PBXNativeTarget "ClassCloud" */;
+			buildPhases = (
+				892FC96F1C908504000573CE /* Sources */,
+				892FC9701C908504000573CE /* Frameworks */,
+				892FC9711C908504000573CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClassCloud;
+			productName = ClassCloud;
+			productReference = 892FC9731C908504000573CE /* ClassCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		892FC98B1C908504000573CE /* ClassCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892FC9981C908504000573CE /* Build configuration list for PBXNativeTarget "ClassCloudTests" */;
+			buildPhases = (
+				892FC9881C908504000573CE /* Sources */,
+				892FC9891C908504000573CE /* Frameworks */,
+				892FC98A1C908504000573CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				892FC98E1C908504000573CE /* PBXTargetDependency */,
+			);
+			name = ClassCloudTests;
+			productName = ClassCloudTests;
+			productReference = 892FC98C1C908504000573CE /* ClassCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		892FC96B1C908504000573CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Lauren Spatz";
+				TargetAttributes = {
+					892FC9721C908504000573CE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = ZQNLBX5CZ8;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					892FC98B1C908504000573CE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 892FC9721C908504000573CE;
+					};
+				};
+			};
+			buildConfigurationList = 892FC96E1C908504000573CE /* Build configuration list for PBXProject "ClassCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 892FC96A1C908504000573CE;
+			productRefGroup = 892FC9741C908504000573CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				892FC9721C908504000573CE /* ClassCloud */,
+				892FC98B1C908504000573CE /* ClassCloudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		892FC9711C908504000573CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892FC9861C908504000573CE /* LaunchScreen.storyboard in Resources */,
+				892FC9831C908504000573CE /* Assets.xcassets in Resources */,
+				892FC9811C908504000573CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892FC98A1C908504000573CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		892FC96F1C908504000573CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892FC97E1C908504000573CE /* ViewController.m in Sources */,
+				892FC97B1C908504000573CE /* AppDelegate.m in Sources */,
+				892FC9B31C90A025000573CE /* NSString+Additions.m in Sources */,
+				892FC9A41C909394000573CE /* NSURL+Additions.m in Sources */,
+				892FC9AD1C909D74000573CE /* AddViewController.m in Sources */,
+				892FC9B91C90A4E7000573CE /* CloudBackupService.m in Sources */,
+				892FC9A01C90917B000573CE /* StudentStore.m in Sources */,
+				892FC9781C908504000573CE /* main.m in Sources */,
+				892FC99D1C9085F9000573CE /* Student.m in Sources */,
+				892FC9B01C909FC6000573CE /* Student+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892FC9881C908504000573CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892FC9911C908504000573CE /* ClassCloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		892FC98E1C908504000573CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 892FC9721C908504000573CE /* ClassCloud */;
+			targetProxy = 892FC98D1C908504000573CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		892FC97F1C908504000573CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892FC9801C908504000573CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		892FC9841C908504000573CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892FC9851C908504000573CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		892FC9931C908504000573CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		892FC9941C908504000573CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		892FC9961C908504000573CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ClassCloud/ClassCloud.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ClassCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurenspatz.ClassCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		892FC9971C908504000573CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ClassCloud/ClassCloud.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ClassCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurenspatz.ClassCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		892FC9991C908504000573CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClassCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurenspatz.ClassCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassCloud.app/ClassCloud";
+			};
+			name = Debug;
+		};
+		892FC99A1C908504000573CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClassCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurenspatz.ClassCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassCloud.app/ClassCloud";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		892FC96E1C908504000573CE /* Build configuration list for PBXProject "ClassCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892FC9931C908504000573CE /* Debug */,
+				892FC9941C908504000573CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892FC9951C908504000573CE /* Build configuration list for PBXNativeTarget "ClassCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892FC9961C908504000573CE /* Debug */,
+				892FC9971C908504000573CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		892FC9981C908504000573CE /* Build configuration list for PBXNativeTarget "ClassCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892FC9991C908504000573CE /* Debug */,
+				892FC99A1C908504000573CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 892FC96B1C908504000573CE /* Project object */;
+}
