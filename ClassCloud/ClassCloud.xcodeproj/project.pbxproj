@@ -107,27 +107,12 @@
 		892FC9751C908504000573CE /* ClassCloud */ = {
 			isa = PBXGroup;
 			children = (
-				892FC9B41C90A39E000573CE /* ClassCloud.entitlements */,
-				892FC9791C908504000573CE /* AppDelegate.h */,
-				892FC97A1C908504000573CE /* AppDelegate.m */,
-				892FC97C1C908504000573CE /* ViewController.h */,
-				892FC97D1C908504000573CE /* ViewController.m */,
-				892FC97F1C908504000573CE /* Main.storyboard */,
-				892FC9AB1C909D74000573CE /* AddViewController.h */,
-				892FC9AC1C909D74000573CE /* AddViewController.m */,
-				892FC9AE1C909FC6000573CE /* Student+Additions.h */,
-				892FC9AF1C909FC6000573CE /* Student+Additions.m */,
-				892FC9B11C90A025000573CE /* NSString+Additions.h */,
-				892FC9B21C90A025000573CE /* NSString+Additions.m */,
-				892FC9821C908504000573CE /* Assets.xcassets */,
-				892FC9841C908504000573CE /* LaunchScreen.storyboard */,
-				892FC9871C908504000573CE /* Info.plist */,
-				892FC9A21C909394000573CE /* NSURL+Additions.h */,
-				892FC9A31C909394000573CE /* NSURL+Additions.m */,
+				892FC9BD1C90CD61000573CE /* AppGlobal */,
+				892FC9BA1C90CD23000573CE /* Controller */,
+				892FC9BC1C90CD54000573CE /* View */,
+				892FC9BB1C90CD35000573CE /* Additions */,
 				892FC9761C908504000573CE /* Supporting Files */,
 				892FC9A11C90918C000573CE /* Model */,
-				892FC9B71C90A4E7000573CE /* CloudBackupService.h */,
-				892FC9B81C90A4E7000573CE /* CloudBackupService.m */,
 			);
 			path = ClassCloud;
 			sourceTree = "<group>";
@@ -152,12 +137,59 @@
 		892FC9A11C90918C000573CE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				892FC9B71C90A4E7000573CE /* CloudBackupService.h */,
+				892FC9B81C90A4E7000573CE /* CloudBackupService.m */,
 				892FC99B1C9085F9000573CE /* Student.h */,
 				892FC99C1C9085F9000573CE /* Student.m */,
 				892FC99E1C90917B000573CE /* StudentStore.h */,
 				892FC99F1C90917B000573CE /* StudentStore.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		892FC9BA1C90CD23000573CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				892FC9AB1C909D74000573CE /* AddViewController.h */,
+				892FC9AC1C909D74000573CE /* AddViewController.m */,
+				892FC97C1C908504000573CE /* ViewController.h */,
+				892FC97D1C908504000573CE /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		892FC9BB1C90CD35000573CE /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				892FC9B11C90A025000573CE /* NSString+Additions.h */,
+				892FC9B21C90A025000573CE /* NSString+Additions.m */,
+				892FC9A21C909394000573CE /* NSURL+Additions.h */,
+				892FC9A31C909394000573CE /* NSURL+Additions.m */,
+				892FC9AE1C909FC6000573CE /* Student+Additions.h */,
+				892FC9AF1C909FC6000573CE /* Student+Additions.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		892FC9BC1C90CD54000573CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				892FC9821C908504000573CE /* Assets.xcassets */,
+				892FC9841C908504000573CE /* LaunchScreen.storyboard */,
+				892FC97F1C908504000573CE /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		892FC9BD1C90CD61000573CE /* AppGlobal */ = {
+			isa = PBXGroup;
+			children = (
+				892FC9791C908504000573CE /* AppDelegate.h */,
+				892FC97A1C908504000573CE /* AppDelegate.m */,
+				892FC9B41C90A39E000573CE /* ClassCloud.entitlements */,
+				892FC9871C908504000573CE /* Info.plist */,
+			);
+			name = AppGlobal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

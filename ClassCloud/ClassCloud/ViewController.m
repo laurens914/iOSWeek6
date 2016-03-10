@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Student.h"
 #import "StudentStore.h"
+#import "CloudBackupService.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -21,6 +22,14 @@
 -(NSString *) firstName
 {
     return nil;
+}
+
+-(void)updateStudents{
+    __weak typeof(self) weakSelf = self;
+    [[CloudBackupService sharedService]enqueueOperation:^(BOOL success, NSArray *students) {
+        [[StudentStore sharedStore]addStudentsFromCloudKit:students];
+        [weakSelf.tableView reloadSections:[NSIndexSet indexSetWithIndex:0]withRowAnimation:UITableViewRowAnimationFade];
+    }];
 }
 
 - (void)viewDidLoad {
@@ -42,7 +51,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.datasource count];
+    return [[StudentStore sharedStore]count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

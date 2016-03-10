@@ -13,13 +13,13 @@ typedef void(^StudentStoreCompletion)();
 
 @interface StudentStore : NSObject
 +(instancetype)sharedStore;
-
+-(void)addStudentsFromCloudKit:(NSArray *)students;
 -(NSInteger)count;
 -(NSArray *)allStudents;
 -(Student *)studentForIndexPath:(NSIndexPath *)indexPath;
--(void)add:(Student *)student;
--(void)remove:(Student *)student;
--(void)removeStudentAtIndexPath:(NSIndexPath *)indexPath;
+-(void)add:(Student *)student completion:(StudentStoreCompletion)completion;
+-(void)remove:(Student *)student completion:(StudentStoreCompletion)completion;
+-(void)removeStudentAtIndexPath:(NSIndexPath *)indexPath completion:(StudentStoreCompletion)completion;
 -(void)save;
 
 
